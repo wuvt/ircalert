@@ -47,7 +47,7 @@ func main() {
 
 	cfg := irc.NewConfig(nick)
 	cfg.Server = server
-	cfg.Me.Ident = nick
+	cfg.Me.Ident = ident
 	cfg.Me.Name = realname
 	cfg.Version = version
 
